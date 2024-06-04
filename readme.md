@@ -120,8 +120,6 @@ UPDATE orders SET user_id = ${user_id}, amount = ${amount} WHERE order_id = ${or
 Delete Query
 DELETE FROM orders WHERE order_id = ${order_id};
 
-
-
 Select All Field Query
 SELECT * FROM orders WHERE order_id = ${order_id};
 
